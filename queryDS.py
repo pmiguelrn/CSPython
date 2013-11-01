@@ -16,16 +16,13 @@
 index = []
 
 def add_to_index(index,keyword,url):
-    sel = 0
     for e in index:
         if keyword == e[0]:
-            sel = 1
             e[1].append(url)
+            return index
 
-    if sel == 0:
-        lis = [keyword,[url]]
-        index.append(lis)
-
+    lis = [keyword,[url]]
+    index.append(lis)
     return index
 
 add_to_index(index,'udacity','http://udacity.com')
