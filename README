@@ -1,1 +1,25 @@
 In this file I pretend to explain all my improvements in the python course
+
+So what I learn until now:
+
+ - Now I have my master file at CSPython.
+ - To add a file i have to type:
+      	  git add <name of file>
+ - To commit a file type:
+          git commit <name of file> -m "message about the improvements made"
+ - To push the commited file go GitHub:
+          git push <name of file>
+
+I have a few problems initially with the creation of the repository, because i did the:
+
+       - git remote add origin htpps://...
+
+in the repository behind
+
+I resolve this problem with:
+
+   - git pull inside the CSPython repository
+
+Other commands 
+
+- git remote -v
